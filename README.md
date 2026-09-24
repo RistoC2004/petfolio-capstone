@@ -1,10 +1,24 @@
 # Petfolio
 
-Petfolio is a mobile application developed as my **eight-month Software Development capstone project at SAIT**.
+Petfolio is a mobile pet health and financial management application developed as my **eight-month Software Development capstone project at SAIT**.
 
-The application was designed to help pet owners manage pet information alongside financial data such as budgets, expenses, analytics and monthly reporting.
+The project was built collaboratively by a software development team and combined mobile UI development, authenticated REST APIs, financial tracking, analytics, validation, testing, and iterative product development.
 
-The project was developed collaboratively as part of a software development team and involved frontend development, REST API integration, authentication, validation, testing and iterative product development.
+## Project Overview
+
+Petfolio was designed to give pet owners one place to manage both pet information and recurring financial activity.
+
+Core areas of the application included:
+
+- Pet profiles
+- Expense tracking
+- Monthly budgets
+- Financial analytics
+- Monthly reporting
+- Authenticated user workflows
+- Multi-pet data
+- Mobile charts and visualizations
+- REST API integration
 
 ## Tech Stack
 
@@ -15,18 +29,19 @@ The project was developed collaboratively as part of a software development team
 - Authentication
 - Mobile UI development
 - Git / GitHub
+- Team-based software development
 
 ## My Contribution
 
-My primary work focused on frontend application development and integration with backend services.
+My primary contribution focused on frontend mobile development and integration with backend services.
 
-I contributed to:
+I worked on:
 
-- Pet profile interfaces and workflows
-- Budget and expense tracking
+- Pet profile interfaces
+- Budget and expense workflows
 - Monthly financial reporting
-- Analytics and chart-based data visualization
-- Authenticated REST API integration
+- Chart-based analytics
+- Authenticated API integration
 - Form and data validation
 - Loading and error states
 - Financial calculations
@@ -34,69 +49,21 @@ I contributed to:
 - Responsive mobile interfaces
 - Debugging and edge-case handling
 
-## Engineering Highlights
+## Application Architecture
 
-- Built React Native and Expo application features for pet profiles, budgeting and expense management.
-- Integrated authenticated frontend workflows with REST API endpoints.
-- Implemented financial calculations with validation and defensive handling for invalid or incomplete data.
-- Developed charts and analytics for displaying spending and budget information.
-- Supported multiple pets with independent financial data and budgeting logic.
-- Designed UI states for empty datasets, loading, API failures and larger expense collections.
-- Debugged frontend and API integration issues throughout the development lifecycle.
-- Collaborated with a software development team over an eight-month capstone project.
+```mermaid
+flowchart LR
+    A[React Native / Expo Mobile App]
+    B[Authentication]
+    C[REST API]
+    D[Application Data]
+    E[Pet Profiles]
+    F[Expenses & Budgets]
+    G[Analytics & Reports]
 
-## Capstone Development
-
-Petfolio was developed over approximately eight months as part of the SAIT Software Development program.
-
-The project involved:
-
-1. Requirements and planning
-2. UI and feature development
-3. Backend/API integration
-4. Authentication
-5. Data validation
-6. Financial logic
-7. Testing and debugging
-8. Team collaboration
-9. Iterative improvements
-10. Final project delivery
-
-Working on the same application over an extended period provided experience maintaining and improving an evolving codebase rather than building only a short-term classroom assignment.
-
-## Project Focus
-
-Petfolio combined several areas of application development:
-
-**Mobile Development**
-- React Native
-- Expo
-- Responsive interfaces
-
-**Application Data**
-- Pet profiles
-- Expenses
-- Budgets
-- Monthly reporting
-- Analytics
-
-**Software Engineering**
-- REST API integration
-- Authentication
-- Validation
-- Error handling
-- Testing
-- Team development
-
-## Source Code
-
-The original capstone project was developed collaboratively as part of a SAIT team project.
-
-This repository serves as a public overview of my contribution and the engineering work completed during the project.
-
-## Developer
-
-**Risto Caissie**  
-Software Developer — Calgary, Alberta
-
-📧 ristocaissie1@gmail.com
+    A --> B
+    A --> C
+    C --> D
+    D --> E
+    D --> F
+    D --> G
